@@ -1,0 +1,214 @@
+*{margin: 0px;
+padding: 0px;}
+.background{
+    background-color: rgb(237, 23, 83);
+    height: 1500px;
+    width: 100%;
+    /* margin: 30px; */
+    border: 4px solid rgb(237, 23, 83);
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px ;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 70px;
+    background-color: white;
+    padding-top: 12px;
+}
+.topnav input{
+        border-radius: 26px;
+        background: rgba(235, 235, 233, 0.945);
+        padding: 5px;
+        width: 450px;
+        height: 20px;
+      }
+.topnav img {
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* border-radius: 50%; */
+}
+.user-image{border-radius: 50%; }
+.topnavright{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.mid-section{
+    height: 80%;
+    display:flex;
+    background-color: rgb(194, 186, 186);
+    width: 90%;
+    margin-left: 70px;
+    flex-direction: row ;
+
+}
+.left-mid-section{
+    background-color: rgb(40, 39, 39);
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+.left-mid-section-1{
+    padding-top: 40px;
+}
+.highlited-heading{
+    background-color: rgb(252, 7, 96);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.hotel-pics{
+    display: flex;
+    
+}
+.hotel-pics img{
+    width: 485px;
+}
+.right-mid-section-1{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    text-align: center;;
+}
+.votes{
+    background-color: rgb(252, 7, 96);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.left-bottom-mid-section{
+background-color: white;
+margin: 40px;
+width: 600px ;
+height: 700px ;
+padding: 40px;
+
+}
+.left-bottom-mid-section-2{
+display:flex;
+justify-content: space-around;
+
+}
+.avatar {
+    vertical-align:middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .bottom-mid-section{
+display: flex;
+  }
+
+  .review-div{
+    display: flex;
+    align-items: center;
+
+  }
+  .review-div h3{
+    color: rgb(250, 71, 101);
+  }
+
+  .review-1{
+    height:280px ;
+    width: 150px;
+    background-color: white;
+    margin-top: 40px;
+    padding: 25px;
+  }
+
+  .review-2{
+    height:280px ;
+    width: 160px;
+    background-color: white;
+    margin-bottom: 60px;
+    margin-top: 25px;
+    padding: 20px;
+  }
+  .review-div{
+padding-top: 5px;  }
+
+  .right-bottom-mid-section-1 
+    a:link {
+        color: rgb(204, 45, 90);
+        background-color: transparent;
+        text-decoration: underline;
+      text-align: center;
+
+      }
+      
+      a:visited {
+        color: rgb(6, 1, 2);
+        background-color: transparent;
+        text-decoration: none;
+      text-align: center;
+
+      }
+      
+      a:hover {
+        color: rgb(71, 48, 145);
+        background-color: transparent;
+        text-decoration: underline;
+      text-align: center;
+
+      }
+      
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      text-align: center;
+
+      }
+  .right-bottom-mid-section{
+
+    display: flex;
+    
+  }    
+  .right-bottom-mid-section-2{
+    height: 280px;
+    margin:60px ;
+    font-size: 20px;
+    /* margin: 20px; */
+  }
+  .button {
+    border-radius: 50px;
+    background-color: #db2958;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  } 
